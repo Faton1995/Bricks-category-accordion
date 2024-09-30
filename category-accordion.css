@@ -1,0 +1,27 @@
+.category-accordion ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.category-accordion li {
+    position: relative;
+}
+
+.category-accordion ul ul {
+    display: none;
+}
+
+.category-accordion li.open > ul {
+    display: block;
+}
+
+.category-accordion li a {
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.category-accordion li a .toggle-icon {
+    margin-left: 5px;
+}
